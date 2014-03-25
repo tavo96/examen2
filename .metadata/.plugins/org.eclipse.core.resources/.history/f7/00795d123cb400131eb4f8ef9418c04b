@@ -73,7 +73,7 @@ public class MyGdxGame implements ApplicationListener {
 		salir gameover= new salir();
 		
 		 
-		for(int e=0; e<9; e++)
+		for(int e=0; e<8; e++)
 		{
 			PelotitaMala t = new PelotitaMala((int)(Math.random()*1000%w),(int)(Math.random()*1000%h),gameover);
 			s.addActor(t);
